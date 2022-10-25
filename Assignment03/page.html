@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MIS455 Assignment03</title>
+    
+    <link rel="stylesheet" href="page.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <!-- using navber below -->
+    <nav class="navbar navbar-dark bg-dark">
+        
+    
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> 
+          <img src="optimized_large_thumb_stage.jpg"alt="Logo" width="50" height="50" class="text-center"><span class="text-warning">TopNotch Glamour</span>
+        </a>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pruduct list
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.walmart.com/c/kp/mac-lipstick-set">MAC</a></li>
+                  <li><a class="dropdown-item" href="https://focallurebangladesh.com/shop/wet-n-wild-photofocus-foundation/">FOCALLURE</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://hudabeauty.com/us/en_US/home">HUDA BEAUTY</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- image slider -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"data-bs-interval="10000">
+            <img src="mac.jpg" class="d-block w-50 h-30" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MAC</h5>
+              <p>Authentic Beauty Product from USA.</p>
+            </div>
+          </div>
+          <div class="carousel-item"data-bs-interval="2000" >
+            <img src="W7p.png" class="d-block w-50 h-30" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>W7</h5>
+              <p>Authentic Beauty Product from USA.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="eye.png" class="d-block w-50 h-30" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>L.A. Girl</h5>
+              <p>Authentic Beauty Product from USA.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="wet.jpg" class="d-block w-50 h-30" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wet and Wild</h5>
+              <p>Authentic Beauty Product from USA.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- card below  -->
+      <div class="container ">
+        <div class="row">
+         <!-- card # 1 below -->
+         <div class="card col col-lg-4 col-md-6 col-12" style="width: 18rem;">
+             <img src="cream.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">COSRX HYALURONIC ACID INTENSIVE CREAM 100ML.</h5> <br><b>TK1350</b></br>
+               <p class="card-text">Superbly hydrating cream contains 3,000ppm of sodium hyaluronate to deeply moisturize skin and help strengthen its moisture barrier to prevent water loss and dryness. .</p>
+               <a href="https://koreanskincaretips.com/cosrx-oily-acne-skin/" class="btn btn-primary">Buy Now</a>
+             </div>
+           </div>
+           <!-- card 2 below -->
+           <div class="card col col-lg-4 col-md-6 col-12" style="width: 18rem;">
+            <img src="nail.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">POPPY RED - PEELABLE NAIL POLISH</h5><br><b>TK890</b></br>
+              <p class="card-text">Putting nail polish on and off is no longer a chore, it is an anytime, anywhere pleasure. Presenting, Lafz Peelable Nail Polish. Water-based, easy-to-apply and easy-to-remove, in a single swipe.</p>
+              <a href="https://www.lafz.com/sa/" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card col col-lg-4 col-md-6 col-12" style="width: 18rem;">
+            <img src="shampoo.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TRESemmé Keratin Smooth Shampoo 700ml</h5><br><b>TK1050</b></br>
+              <p class="card-text"> For hair that's silky smooth but still full of natural movement. The system fights frizz, detangles knots, boosts shine, adds softness and tames flyaways..</p>
+              <a href="https://www.tresemme.com/us/en/products/shampoo.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card col col-lg-4 col-md-6 col-12" style="width: 18rem;">
+            <img src="jel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nature Republic Soothing & Moisture Aloe Vera 92% Soothing Gel
+                (300ml)</h5><br><b>TK900</b></br>
+              <p class="card-text">A hydrating and cooling gel formulated with 92% California CCOF-certified organic aloe vera.Does NOT contain mineral oil and paraben, no artificial colors</p>
+              <a href="https://www.wikihow.com/Use-Aloe-Vera-Gel-on-Your-Face" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="card col col-lg-4 col-md-6 col-12" style="width: 18rem;">
+            <img src="bio.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bioderma - Sébium Foaming Gel - Face and Body Cleanser - Makeup Remover Cleanser - Face Wash for Combination to Oily Skin</h5><br><b>TK1890</b></br>
+              <p class="card-text">Specially designed for combination to oily skin, Sébium Foaming Gel gently cleanse and purify your skin without drying it out. Sébium Foaming Gel contains our patented D.A.F complex that contributes to improve the tolerance threshold of your skin..</p>
+              <a href="https://www.netmeds.com/non-prescriptions/bioderma-sebium-moussant-gel-100ml" class="btn btn-primary">buy now</a>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="card col col-lg-4 col-md-6 col-12" style="width: 18rem;">
+            <img src="LAFZ.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">LAFZ Halal Premium Body Spray Meliha
+                (120ml)</h5><br><b>TK400</b></br>
+              <p class="card-text">The Lafz range of body spray is a unique selection of fragrances that has been crafted with the finest natural oils to give you a rejuvenating aromatic experience without sacrificing your personal beliefs..</p>
+              <a href="https://www.lafz.com/sa/" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          </div>
+      </div>
+          
+      <footer>
+        <div class="container">
+          <div class="sec aboutus">
+            <!-- use animation css below -->
+            <h3 class="animate__animated animate__bounce">TopNotch Glamour</h3>
+           
+            
+            <h2>About us</h2>
+            <p>TopNotch Glamour is the first beauty shopping app of Bangladesh which not only allows you to choose from
+              10,000+ products ranging over 450 of Brands but also provides the necessary beauty consultation regarding with this.
+              Browse through the largest collection of cosmetics, skin and hair care products and shop according to your choice, need and budget.
+              Explore our full product range from head to toe and buy the best solutions for you.And products are 100% authenthic.</p>
+              
+      
+              <div class="logo">
+                <img src="fb logo.png"alt="logo" width="30"height="24">
+                <img src="instalogo.png"alt="logo" width="30"height="24">
+                <img src="youtubelogo.jfif"alt="logo" width="30"height="24">
+              
+              
+              
+              
+              
+              
+              </div>
+              
+          </div>
+          <br>
+          
+          <div class="sec quicklinks">
+            <h2>Catagories</h2>
+            <ul>
+              <li><a href="#">Make Up</a></li>
+              <li><a href="#">Skin Care</a></li>
+              <li><a href="#">Eye Care</a></li>
+              <li><a href="#">Personal Care</a></li>
+            </ul>
+          </div>
+          <div class="sec quicklinks">
+            <h2>Help</h2>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Points</a></li>
+              <li><a href="#">Shipping and Delivery</a></li>
+              <li><a href="#">Refund and Return policy</a></li>
+            </ul>
+          </div>
+      <div class="sec contact">
+        <h2>Contact Us</h2>
+        <ul class="info">
+          <li>
+            <span><img src="map.jfif"alt="logo" width="30"height="24"></i></span>
+            <span>Sector 6,Road 8,Uttara,DHAKA-1229,<br>Bangladesh</span>
+          </li>
+          <li>
+            <span><img src="call.png"alt="logo" width="30"height="24"></i></span>
+           <p><a href="Mobile:01992910476">01992910476</a></p>
+          </li>
+          <li>
+            <span><img src="envelope.jfif"alt="logo" width="30"height="24"></i></span>
+           <p><a href="Email:topnotch@gmail.com">topnotch@gmail.com</a></p>
+          </li>
+      
+        </ul>
+      </div>
+        </div>
+      </footer>
+      <div class="copyrightText">
+        <p>All rights reserved © TopNotch Glamour 2018-2024</p>
+      </div>
+         
+
+          
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
